@@ -1,9 +1,8 @@
 "use client";
 import { useState } from "react";
+import {add} from "@/utils/lib";
 export default function Home() {
-	const add = (a: number, b: number): number => {
-		return a + b;
-	};
+
 
 	const [a, setA] = useState(0);
 	const [b, setB] = useState(0);
